@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="SkirmishPlay"/>
+	<Id value="SkirmishPlay"/>
+	<Version value="v1.0.0"/>
+	<!-- Server = DS-only (chat commands, console hooks). Clients join with Native+Multiplayer only. -->
+	<ModuleCategory value="Server"/>
+	<DependedModules>
+		<DependedModule Id="Native" Optional="false"/>
+		<DependedModule Id="Multiplayer" Optional="false"/>
+	</DependedModules>
+	<SubModules>
+		<SubModule>
+			<Name value="SkirmishPlay"/>
+			<DLLName value="SkirmishPlay.dll"/>
+			<SubModuleClassType value="SkirmishPlay.SkirmishPlaySubModule"/>
+			<Tags>
+				<Tag key="DedicatedServerType" value="custom"/>
+			</Tags>
+		</SubModule>
+	</SubModules>
+</Module>

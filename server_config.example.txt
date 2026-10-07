@@ -1,0 +1,12 @@
+# Minimal Native Skirmish example. Set private passwords in your local config.
+ServerName Skirmish Server
+GameType Skirmish
+Map mp_skirmish_map_002f
+CultureTeam1 empire
+CultureTeam2 vlandia
+MaxNumberOfPlayers 60
+WarmupTimeLimit 60
+RoundTotal 5
+RoundTimeLimit 420
+add_map_to_usable_maps mp_skirmish_map_002f Skirmish
+start_game

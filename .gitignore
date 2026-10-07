@@ -1,0 +1,21 @@
+# Public source only. Private deployment/config/history stays local.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/Directory.Build.props
+!/*.sln
+!/src/
+!/module/
+**/bin/
+**/obj/
+**/*.dll
+**/*.pdb
+**/*.exe
+**/*.log
+**/.env*
+**/stats_config.json
+**/wartable_config.json
+!/stats_config.example.json
+!/server_config.example.txt
+!/supabase/
